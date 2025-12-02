@@ -25,3 +25,9 @@ Useful examples can be found below:
  * [Jetton batch withdrawal](https://github.com/toncenter/examples/blob/main/withdrawals-jettons-highload-batch.js)
 
 Author: [Andrew Gutarev](https://github.com/pyAndr3w)
+
+## Security Scanning
+
+A manual security scanning workflow is available under `.github/workflows/security-scan.yml`. This workflow is triggered manually via `workflow_dispatch` only and does not run automatically on push or PR events.
+
+Additionally, a helper script `scan-repo.sh` is provided for local triage from a clean environment or mirror clone.
